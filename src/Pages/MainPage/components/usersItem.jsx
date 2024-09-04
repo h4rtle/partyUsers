@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import api from "../../api/index";
+import api from "../../../api/fake.api/user.api";
 const UsersItem = () => {
   const [user, setUsers] = useState(api.users.fetchAll());
 
